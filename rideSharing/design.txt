@@ -1,0 +1,16 @@
+
+
+POJO
+- Location
+- Driver
+- Rider
+- ICommand
+    - ADD_DRIVER D2 4 5 -> AddDriverCommand(driverId, location)
+
+Synchronous vs Asynchronous execution of Commands
+
+1. Sync
+2. Async
+    - TaskQueue
+    - TaskExecutorService
+    - ConcurrentMap
